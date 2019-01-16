@@ -1,4 +1,5 @@
 import React from 'react';
+import faker from 'faker';
 
 //be able to customize with props(configure  )
 const CommentDetail = () => {
@@ -19,3 +20,6 @@ const CommentDetail = () => {
     </div>
   )
 }
+
+//make component available to other files in project
+export default CommentDetail

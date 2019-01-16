@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import faker from 'faker';
+//render CommentDetail component
+import CommentDetail from './CommentDetail'
 
 //naive approach
 const App = () => {
