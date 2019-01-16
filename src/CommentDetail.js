@@ -1,7 +1,6 @@
 import React from 'react';
 import faker from 'faker';
 
-//be able to customize with props(configure  )
 const CommentDetail = () => {
   return (
     <div className='comment'>
@@ -10,7 +9,7 @@ const CommentDetail = () => {
       </a>
       <div className='content'>
         <a href='/' className='author'>
-          Malind
+          YourName
         </a>
         <div className='metadata'>
           <span className='date'>Today at 2:45pm</span>
@@ -18,8 +17,7 @@ const CommentDetail = () => {
         <div className='text'>Nice blog article</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-//make component available to other files in project
-export default CommentDetail
+export default CommentDetail;
