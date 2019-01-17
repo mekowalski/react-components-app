@@ -7,7 +7,7 @@ const CommentDetail = props => {
 
     <div className='comment'>
       <a href='/' className='avatar'>
-        <img alt='avatar' src={faker}/>
+        <img alt='avatar' src={props.avatar}/> //referenceing js variable, use {} not inside ''
       </a>
       <div className='content'>
         <a href='/' className='author'>
