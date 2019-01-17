@@ -1,7 +1,8 @@
 import React from 'react';
 import faker from 'faker';
 
-const CommentDetail = () => {
+//step 2 for passing props for Child to consume!!!!!!
+const CommentDetail = (props) => {
   return (
     <div className='comment'>
       <a href='/' className='avatar'>
