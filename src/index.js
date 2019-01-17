@@ -7,13 +7,15 @@ import WrappedCard from './WrappedCard';
 const App = () => {
   return (
     <div className='ui container comments'>
-      <WrappedCard />
-      <CommentDetail
-        author='Malind'
-        timeAgo='Today at 1:15PM'
-        commentText='This was a good read'
-        avatar={faker.image.avatar()}
-      />
+      <WrappedCard>
+        <CommentDetail
+          author='Malind'
+          timeAgo='Today at 1:15PM'
+          commentText='This was a good read'
+          avatar={faker.image.avatar()}
+        />
+      </WrappedCard>
+      
       <CommentDetail
         author='Ryan'
         timeAgo='Today at 4:00AM'
