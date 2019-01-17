@@ -1,5 +1,4 @@
 import React from 'react';
-import faker from 'faker';
 
 //step 2 for passing props for Child to consume!!!!!!
 const CommentDetail = props => {
@@ -7,7 +6,7 @@ const CommentDetail = props => {
 
     <div className='comment'>
       <a href='/' className='avatar'>
-        <img alt='avatar' src={props.avatar}/> //referenceing js variable, use {} not inside ''
+        <img alt='avatar' src={props.avatar}/>
       </a>
       <div className='content'>
         <a href='/' className='author'>

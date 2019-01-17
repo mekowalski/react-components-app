@@ -10,7 +10,7 @@ const App = () => {
         author='Malind'
         timeAgo='Today at 1:15PM'
         commentText='This was a good read'
-        avatar={faker.image.avatar()} //reference to a javascript variable
+        avatar={faker.image.avatar()}
       />
       <CommentDetail
         author='Ryan'
