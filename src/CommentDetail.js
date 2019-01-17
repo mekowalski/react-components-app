@@ -3,7 +3,6 @@ import faker from 'faker';
 
 //step 2 for passing props for Child to consume!!!!!!
 const CommentDetail = props => {
-  console.log(props)
   return (
 
     <div className='comment'>
@@ -15,9 +14,9 @@ const CommentDetail = props => {
           {props.author}
         </a>
         <div className='metadata'>
-          <span className='date'>Today at 2:45pm</span>
+          <span className='date'>{props.timeAgo}</span>
         </div>
-        <div className='text'>Nice blog article</div>
+        <div className='text'>{props.commentText}</div>
       </div>
     </div>
   );
