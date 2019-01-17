@@ -2,7 +2,7 @@ import React from 'react';
 import faker from 'faker';
 
 //step 2 for passing props for Child to consume!!!!!!
-const CommentDetail = (props) => {
+const CommentDetail = props => {
   console.log(props)
   return (
 
