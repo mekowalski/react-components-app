@@ -1,9 +1,7 @@
 import React from 'react';
 
-//step 2 for passing props for Child to consume!!!!!!
 const CommentDetail = props => {
   return (
-
     <div className='comment'>
       <a href='/' className='avatar'>
         <img alt='avatar' src={props.avatar}/>
@@ -18,7 +16,6 @@ const CommentDetail = props => {
         <div className='text'>{props.commentText}</div>
       </div>
     </div>
-
   );
 };
 
