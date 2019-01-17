@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import faker from 'faker';
 import CommentDetail from './CommentDetail';
+import WrappedCard from './WrappedCard';
 
 const App = () => {
   return (
     <div className='ui container comments'>
+      <WrappedCard />
       <CommentDetail
         author='Malind'
         timeAgo='Today at 1:15PM'
