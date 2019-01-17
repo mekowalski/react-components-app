@@ -21,7 +21,5 @@ const CommentDetail = props => {
 
   );
 };
-//can add a bit more JSX to show wrapping outline idea
-//but the purpose of PROPs is to create resuable Components
 
 export default CommentDetail;
